@@ -1,0 +1,46 @@
+# Build
+build/
+out/
+cmake-build-*/
+.cache/
+compile_commands.json
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+CMakeSettings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dependencies (FetchContent)
+_deps/
+
+# Binaries / artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+*.spv
+
+# Generated
+*.log
+*.tmp
+*.bak
+
+# Editor / project local
+*.emberproj.user
+.ember/
